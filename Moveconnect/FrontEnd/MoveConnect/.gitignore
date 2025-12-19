@@ -1,0 +1,47 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+sui-tool
+sui-node
+sui-debug
+sui-testnet-v1.62.0-ubuntu-x86_64.tgz
+move-analyzer
+sui-bridge
+sui-bridge-cli
+sui-data-ingestion
+sui-faucet
+sui-graphql-rpc
+sui-test-validator
